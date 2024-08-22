@@ -1,6 +1,12 @@
 .jumbotron {
   padding-top: 7rem;
+  padding-bottom: 7rem;
   background-color: #ffffff;
+}
+
+h {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 #Projects {
@@ -9,11 +15,7 @@
 
 section {
   padding-top: 5rem;
-}
-
-.card:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 5rem;
 }
 
 .card:hover {
