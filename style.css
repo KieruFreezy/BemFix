@@ -3,9 +3,21 @@
   padding: 0;
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2,
+.jumbotron,
+.card:hover,
+.social-links {
+  transition: margin-top 2s, color 1s;
+}
+
 h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-weight: bold;
 }
 
 .jumbotron {
@@ -14,6 +26,18 @@ h2 {
 }
 
 .card:hover {
+  transition: transform 1s;
   transform: translateY(-15px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-links img {
+  width: 40px; /* Ukuran logo */
+  height: 40px;
+  margin: 10px;
+  transition: transform 1.2s; /* Animasi saat di-hover */
+}
+
+.social-links img:hover {
+  transform: scale(1.1); /* Zoom in saat di-hover */
 }
